@@ -5,6 +5,7 @@
   --third-text-color: #ffffff;
   --accent-colr: #2196f3;
   --portfolio-btn-color: #F5F4FA;
+  --address-hover-color: #188ce8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -178,15 +179,15 @@ color: var(--third-text-color);
 }
 .text-address:hover,
 .text-address:focus {
-    color: #188ce8;
+    color: var(--address-hover-color);
 }
 .footer-mail:hover,
 .footer-mail:focus {
-    color: #188ce8;
+    color: var(--address-hover-color);
 }
 .footer-tel:hover, 
 .footer-tel:focus {
-    color: #188ce8;
+    color: var(--address-hover-color);
 }
 
 /*portfolio*/
