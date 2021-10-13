@@ -10,7 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.current{
+.link.current{
     color: var(--accent-colr);
 }
 .visually-hidden {
